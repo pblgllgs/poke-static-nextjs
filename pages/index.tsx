@@ -1,9 +1,10 @@
+import { Button } from '@nextui-org/react';
 import type { NextPage } from 'next';
 
 const HomePage: NextPage = () => {
   return (
     <>
-      <h1>Hola</h1>
+      <Button color={'gradient'}>Boton</Button>
     </>
   );
 };
