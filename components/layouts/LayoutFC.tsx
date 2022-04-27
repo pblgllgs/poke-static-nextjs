@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { FC } from 'react';
 
-export const LayoutFC: FC<{ siteName: string }> = ({ children, siteName }) => {
+export const LayoutFC: FC<{ siteName: string }> = ({ siteName }) => {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export const LayoutFC: FC<{ siteName: string }> = ({ children, siteName }) => {
         <meta name="keywords" content="xxx pokemon, pokedex" />
       </Head>
 
-      <main>{children}</main>
+      <main></main>
     </>
   );
 };
