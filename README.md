@@ -15,5 +15,5 @@ yarn dev
 First, run the development server:
 
 ```bash
-docker run -d -p 80:3000 --name web pblgllgs/travel-web:1.0.0
+docker run -d -p 80:3000 --name web pblgllgs/poke-web:1.0.0
 ```
